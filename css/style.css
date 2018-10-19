@@ -3,24 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 header{
-    background: url(img/huntington.png);
+    background: url(../img/huntington.png);
     height: 300px;
-
     }
-
-h2 {
-    background: url(img/zen.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color:white;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-    background-position: 35%;
-
-    
-    }
-    h1{
+h1{
         text-align: center;
         font-size: 40px;
         color: white;
@@ -30,6 +16,18 @@ h2 {
         text-shadow: 4px 4px black;
     }
 
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    background-position: 35%;
+    }
+
+
 p,h3{
     padding-left: 10%;
     padding-right: 10%;
@@ -38,9 +36,12 @@ p,h3{
 h3{
     padding-top: 15px;
 }
+.banner{
+
+}
 
 .participation,.benefits{
-    background: url(img/bamboo.png);
+    background: url(../img/bamboo.png);
     background-color:#6ea691;
     
 }
@@ -96,7 +97,7 @@ p[role=contentinfo]{
          
      }
      .zen-resources ul{
-         background-image: url(img/bamboo.png);
+         background-image: url(../img/bamboo.png);
          background-color: #6ea691;
          list-style-type: none;
          text-align: center;
