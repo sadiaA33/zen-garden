@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+header{
+    background: url(img/huntington.png);
+    height: 300px;
+
+    }
+
+h2 {
+    background: url(img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    background-position: 35%;
+
+    
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 50px;
+        text-shadow: 4px 4px black;
+    }
+
+p,h3{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+}
+h3{
+    padding-top: 15px;
+}
+
+.participation,.benefits{
+    background: url(img/bamboo.png);
+    background-color:#6ea691;
+    
+}
+p[role=contentinfo]{
+    background: #6ea691;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    
+      }
+
+      .requirements p:last-child a {
+        color: white;
+        font-family: cursive;
+        font-size: 30px;
+        
+
+    }
+    
+    footer{
+        background:rgb(71, 95, 71);
+        text-align: center;
+       /* height:30px;*/
+        padding: 2%;
+        font-size: 40px;
+        margin-bottom: 0%;
+        
+        
+       
+    }
+    .sidebar h3{
+        display: none;
+    }
+     /*a.design-name,a.designer-name ,.zen-resources li*/
+     .design-selection li,.design-archives li{ 
+       float: left;
+        width: 20%;
+        padding:2em 10%;
+        border-top: solid 2px white;
+        list-style-type: none;
+        
+        background: #a5afab;
+        padding-right: 20%;
+         margin-top: 0;
+        }
+        
+        
+    
+     
+     .zen-resources li{
+         
+         padding: 20px 20px;
+         
+     }
+     .zen-resources ul{
+         background-image: url(img/bamboo.png);
+         background-color: #6ea691;
+         list-style-type: none;
+         text-align: center;
+         padding: 2em 10%;
+         font-style: inherit;
+         column-count: 2;
+         
+}
+     .fa-html5:hover,.fa-css3:hover, .fa-creative-commons:hover, .fa-a {
+         color:grey;
+     }
+
+
+
+ul{
+    margin: 0;
+    padding-left:0;
+}
+
